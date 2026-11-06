@@ -4,7 +4,7 @@
 
 I build data pipelines and reporting datasets for banking and payments. My work includes automating data loads, reconciling records across systems, and investigating data quality issues before they reach analysts and business teams.
 
-## Featured project
+## Featured projects
 
 ### [Banking Transaction Data Pipeline](https://github.com/manoanasani8/banking-data-pipeline)
 
@@ -19,6 +19,10 @@ A runnable Python and SQL project that validates synthetic bank transactions, lo
 | Automated tests | 6 |
 
 The project stores money in integer cents, preserves a rejection audit trail, and can rerun the same batch without duplicating records. [View the architecture and run it locally](https://github.com/manoanasani8/banking-data-pipeline#run-it).
+
+### [Payment Reconciliation Pipeline](https://github.com/manoanasani8/payment-reconciliation-pipeline)
+
+Compares synthetic captured payments with settlement records. It flags missing or unexpected records, duplicate IDs, and amount differences in a single exception report. [See the five sample outcomes](https://github.com/manoanasani8/payment-reconciliation-pipeline#sample-results).
 
 ## Core skills
 
